@@ -38,7 +38,7 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 3.7. _SHOULD_. For **tables** and **general containers** that is supposed to be wider than wireframe bounds, DO NOT finish the container with a bottom side line, and apply a three horizontal dashes following each vertical side of container.
 
-#### 4. Blue elements - Features
+### 4. Blue elements - Features
 
 4.1. _MUST_. Use the **blue** color to describe the content, origin and destination of features.
 
@@ -54,8 +54,8 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 4.7. _MUST_. When referencing features in Table of Features specified by item 4.4, use `←` to indicate the origin of the feature, like, but not limited to, pages e other features, and also the source of labels, like, but not limited to APIs and internal funcions.
 
-#### 5. Red elements - Modifiers
+### 5. Red elements - Modifiers
 
-#### 6. Orange elements - Illustrations and layout to be determined
+### 6. Orange elements - Illustrations and layout to be determined
 
-#### 7. Grids and browser bounds
+### 7. Grids and browser bounds
