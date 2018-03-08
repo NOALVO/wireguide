@@ -42,22 +42,38 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 4.1. _MUST_. Use the **blue** color to describe the content, origin and destination of features.
 
-4.2. _MUST_. Reference each feature by a letter, starting from `A` to `Z`.
+4.2. _MUST_. Define a **reference code** for each feature with a letter, starting from `A` to `Z`.
 
-4.3. _SHOULD NOT_. Prefer omiting control lables and instead use the reference code described in 4.2.
+4.3. _SHOULD NOT_. Prefer omiting control labels and instead use the reference code described in 4.2.
 
-4.4. _MUST_. Build a Table of Features including the reference code and main details of each in a usable free space of the wireframe. If there is no free space in wireframe, use the back of sheet to make it.
+4.4. _MUST_. Build a "**Table of Features**" including the reference code and the main details of each in a usable free space of the wireframe. If there is no free space in the wireframe, use the back of the sheet to make it.
 
-4.5. _MUST_. When referencing features in Table of Features specified by item 4.4, use `"` to describe their labels.
+4.5. _MUST_. When referencing features in Table of Features specified by item 4.4, **use `"` to describe their labels**.
 
-4.6. _MUST_. When referencing features in Table of Features specified by item 4.4, use `→` to indicate the destination of the feature, like, but not limited to, opening dialogs and changing pages.
+4.6. _MUST_. When referencing features in Table of Features specified by item 4.4, **use `→` to indicate the destination of the feature**, like, but not limited to, opening dialogs and changing pages.
 
-4.7. _MUST_. When referencing features in Table of Features specified by item 4.4, use `←` to indicate the origin of the feature, like, but not limited to, pages e other features, and also the source of labels, like, but not limited to APIs and internal funcions.
+4.7. _MUST_. When referencing features in Table of Features specified by item 4.4, **use `←` to indicate the origin of the feature**, like, but not limited to, pages e other features, and also the source of labels, like, but not limited to APIs and internal funcions.
 
 ### 5. Red elements - Modifiers
 
-### 6. Orange elements - Illustrations and layout to be determined
+5.1. _MUST_. Use the **red** color to indicate special behaviors of features.
 
-### 7. Grids and browser bounds
+5.2. _MUST_. Mark read-only controls with an X mark.
 
-### 8. Digitalizing
+5.3. _MUST_. Mark elements and controls affected by user roles (privileges elevation) with a (`△`). Elements marked both with 5.2 and this marking will be considered not read-only if the role is satisfied. Indicate more details of the privilege and control behavior in the Table of Features.
+
+5.4. _MUST_. Mark elements and controls that contains or triggers AJAX loaders with an horizontal three-dot.
+
+5.5. _MUST_. Mark elements and controls that are repeatable by some iteration with a vertical three-dot. Indicate more details of the iteration in the Table of Features.
+
+### 6. Green elements - Controls
+
+6.1. 
+
+### 7. Orange elements - Illustrations and layout to be determined
+
+7.1. All **black**
+
+### 8. Grids and browser bounds
+
+### 9. Digitalizing
