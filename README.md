@@ -59,3 +59,5 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 ### 6. Orange elements - Illustrations and layout to be determined
 
 ### 7. Grids and browser bounds
+
+### 8. Digitalizing
