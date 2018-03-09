@@ -152,11 +152,17 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 7.1. _SHOULD_. Draw proposals of text and illustrations that have to be officially determined with the orange color.
 
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/71.PNG)
+
 ### 8. Grids and browser bounds
 
 8.1. _SHOULD_. Use simple grids to draw containers and parts of pages.
 
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/81.PNG)
+
 8.2. _SHOULD_. Use "browser" grids to draw pages and elements disposed inside a page.
+
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/82.PNG)
 
 8.3. _SHOULD_. Use "tablet" and "mobile" grids to represent responsive adjusted desktop wireframes, or, if your wireframe is for a product that focus a specific plaform.
 
@@ -166,4 +172,3 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 9.1. _SHOULD_. Use [CamScanner]() to digitalize wireframes, applying "Lighten" or "Magic Color" filter.
 
-![](https://raw.githubusercontent.com/NOALVO/wireguide/master/fullwires.jpg)
