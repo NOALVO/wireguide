@@ -5,7 +5,11 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 ### 1. Objectives
 
-### 2. Pen
+1.1. These guidelines are supposed to be used by any product owner, manager, designer or developer intended to illustrate visual representations of computer software or internet pages, a.k.a. prototyping or wireframing.
+
+1.2. These guidelines SHOULD be used to represent low-fidelity wireframes, which means that rounded borders, shadows, gradients, images, icons, animations or any complex form of graphics SHOULD NOT be used.
+
+### 2. Pen 🖊
 
 2.1. _SHOULD_. Prefer using thin/sharp hydrographic pens or ballpoint pens. Avoid thick pens and markers.
 
@@ -13,7 +17,7 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 2.3. _MUST_. Use black, blue, red, green and orange colors to draw elements, attending to the following rules below. When you don't have green or orange color, you MUST replace orange by red and green by black. When you don't have blue, red or black, well... you could not make a comprehensive wireframe.
 
-### 3. Black elements - Containers
+### 3. Black elements 🖤 Containers
 
 3.1. _MUST_. Use the **black** color for general lines, containers and borders. In all, but not limited to, the following cases:
 - Divs
@@ -38,7 +42,7 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 3.7. _SHOULD_. For **tables** and **general containers** that is supposed to be wider than wireframe bounds, DO NOT finish the container with a bottom side line, and apply a three horizontal dashes following each vertical side of container.
 
-### 4. Blue elements - Features
+### 4. Blue elements 💙 Features
 
 4.1. _MUST_. Use the **blue** color to describe the content, origin and destination of features.
 
@@ -54,7 +58,7 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 4.7. _MUST_. When referencing features in Table of Features specified by item 4.4, **use `←` to indicate the origin of the feature**, like, but not limited to, pages e other features, and also the source of labels, like, but not limited to APIs and internal funcions.
 
-### 5. Red elements - Modifiers
+### 5. Red elements ❤️ Modifiers
 
 5.1. _MUST_. Use the **red** color to indicate special behaviors of features.
 
@@ -66,7 +70,7 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 5.5. _MUST_. Mark elements and controls that are repeatable by some iteration with a vertical three-dot. Indicate more details of the iteration in the Table of Features.
 
-### 6. Green elements - Controls
+### 6. Green elements 💚 Controls
 
 6.1. _MUST_. Draw **input/text boxes** with just an horizontal line. DO NOT draw inputs as a rectangle, as they may be confused with a button.
 
@@ -94,7 +98,7 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 6.10. _MUST_. Draw **progress bars** as two long rectangles (one filled and the other not) together. Place a `%` inside the white rectangle, as this drawing may be confused with switches.
 
-### 7. Orange elements - Illustrations and layout to be determined
+### 7. Orange elements 💛 Illustrations and layout to be determined
 
 7.1. _SHOULD_. Draw proposals of text and illustrations that have to be officially determined with the orange color.
 
@@ -112,4 +116,4 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 9.1. _SHOULD_. Use [CamScanner]() to digitalize wireframes, applying "Lighten" or "Magic Color" filter.
 
-[](!)
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/fullwires.jpg)
