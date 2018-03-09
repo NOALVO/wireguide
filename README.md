@@ -58,7 +58,7 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 5.1. _MUST_. Use the **red** color to indicate special behaviors of features.
 
-5.2. _MUST_. Mark read-only controls with an X mark.
+5.2. _MUST_. Mark read-only, blocked and disabled controls with an "block" sign.
 
 5.3. _MUST_. Mark elements and controls affected by user roles (privileges elevation) with a (`△`). Elements marked both with 5.2 and this marking will be considered not read-only if the role is satisfied. Indicate more details of the privilege and control behavior in the Table of Features.
 
@@ -68,12 +68,48 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 ### 6. Green elements - Controls
 
-6.1. 
+6.1. _MUST_. Draw **input/text boxes** with just an horizontal line. DO NOT draw inputs as a rectangle, as they may be confused with a button.
+
+6.2. _MUST_. Draw **buttons** as rectangles, including **image buttons**. For buttons that have a cancel/abort/close behavior include a times character (`×`) aligned to center.
+
+6.3. _MUST_. Draw **checkboxes** as squares with a checkmark inside.
+
+6.4. _MUST_. Draw **radio buttons** as circles with a dot inside.
+
+6.5. _MUST_. Draw **dropdown menus** writing the "Dropdown" word, followed by a feature reference code (as described in 4.2), and, followed by a black triangle ponting down (`▼`). 
+
+6.5.1. _MUST_. For the menu panel, draw it as a black container (as described in 3.1), but make a diagonal (northwest to souteast) line at the top-right corner of the container. 
+
+6.5.2. _MUST_. Include an underline at the beggining of each dropdown menu item.
+
+6.5.3. _MUST_. Include a black triangle pointing right (`▶︎`) at the end of each dropdown item which activates another dropdown menu.
+
+6.6. _MUST_. Put a dashed border at the bottom of **hyperlinks**.
+
+6.7. _MUST_. Draw **sliders** as an horizontal line with a black filled circle on it.
+
+6.8. _MUST_. Draw **switches** as two rectancles (one filled and the other not) together.
+
+6.9. _MUST_. Draw **tooltips** as rectangles shaped with a left-chevron at the left side.
+
+6.10. _MUST_. Draw **progress bars** as two long rectangles (one filled and the other not) together. Place a `%` inside the white rectangle, as this drawing may be confused with switches.
 
 ### 7. Orange elements - Illustrations and layout to be determined
 
-7.1. All **black**
+7.1. _SHOULD_. Draw proposals of text and illustrations that have to be officially determined with the orange color.
 
 ### 8. Grids and browser bounds
 
+8.1. _SHOULD_. Use simple grids to draw containers and parts of pages.
+
+8.2. _SHOULD_. Use "browser" grids to draw pages and elements disposed inside a page.
+
+8.3. _SHOULD_. Use "tablet" and "mobile" grids to represent responsive adjusted desktop wireframes, or, if your wireframe is for a product that focus a specific plaform.
+
+8.4. _SHOULD_. Use [Sneakpeekit](http://sneakpeekit.com/) to print paper grids described by 8.1, 8.2 and 8.3.
+
 ### 9. Digitalizing
+
+9.1. _SHOULD_. Use [CamScanner]() to digitalize wireframes, applying "Lighten" or "Magic Color" filter.
+
+[](!)
