@@ -32,27 +32,27 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 3.2. _MUST_. For **navigation bars**, when the bar is prefixed by a trademark or logo, include the word `LOGO` at the beggining of the bar.
 
-![](https://raw.githubusercontent.com/NOALVO/wireguide/master/32.jpg)
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/32.PNG)
 
 3.3. _MUST_. **Modal dialogs** must include close button (`×`) at the top-right corner.
 
-![](https://raw.githubusercontent.com/NOALVO/wireguide/master/33.jpg)
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/33.PNG)
 
 3.4. _MUST_. **Images** must be represented by a square with an x mark touching its corners.
 
-![](https://raw.githubusercontent.com/NOALVO/wireguide/master/34.jpg)
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/34.PNG)
 
 3.5. _SHOULD_. For **tables** and **general containers** that includes repeatable elements, draw only the first line of element and include three vertical dots at the middle of container.
 
-![](https://raw.githubusercontent.com/NOALVO/wireguide/master/35.jpg)
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/35.PNG)
 
 3.6. _SHOULD_. For **tables** and **general containers** that is supposed to be taller than wireframe bounds, DO NOT finish the container with a bottom side line, and apply a three vertcial dashes following each horizontal side of container.
 
-![](https://raw.githubusercontent.com/NOALVO/wireguide/master/36.jpg)
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/36.PNG)
 
 3.7. _SHOULD_. For **tables** and **general containers** that is supposed to be wider than wireframe bounds, DO NOT finish the container with a bottom side line, and apply a three horizontal dashes following each vertical side of container.
 
-![](https://raw.githubusercontent.com/NOALVO/wireguide/master/37.jpg)
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/37.PNG)
 
 ### 4. Blue elements 💙 Features
 
