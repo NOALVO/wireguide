@@ -104,13 +104,23 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 6.1. _MUST_. Draw **input/text boxes** with just an horizontal line. DO NOT draw inputs as a rectangle, as they may be confused with a button.
 
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/61.PNG)
+
 6.2. _MUST_. Draw **buttons** as rectangles, including **image buttons**. For buttons that have a cancel/abort/close behavior include a times character (`×`) aligned to center.
+
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/62.PNG)
 
 6.3. _MUST_. Draw **checkboxes** as squares with a checkmark inside.
 
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/63.PNG)
+
 6.4. _MUST_. Draw **radio buttons** as circles with a dot inside.
 
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/64.PNG)
+
 6.5. _MUST_. Draw **dropdown menus** writing the "Dropdown" word, followed by a feature reference code (as described in 4.2), and, followed by a black triangle ponting down (`▼`). 
+
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/65.PNG)
 
 6.5.1. _MUST_. For the menu panel, draw it as a black container (as described in 3.1), but make a diagonal (northwest to souteast) line at the top-right corner of the container. 
 
@@ -120,13 +130,23 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 6.6. _MUST_. Put a dashed border at the bottom of **hyperlinks**.
 
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/66.PNG)
+
 6.7. _MUST_. Draw **sliders** as an horizontal line with a black filled circle on it.
+
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/67.PNG)
 
 6.8. _MUST_. Draw **switches** as two rectancles (one filled and the other not) together.
 
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/68.PNG)
+
 6.9. _MUST_. Draw **tooltips** as rectangles shaped with a left-chevron at the left side.
 
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/69.PNG)
+
 6.10. _MUST_. Draw **progress bars** as two long rectangles (one filled and the other not) together. Place a `%` inside the white rectangle, as this drawing may be confused with switches.
+
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/610.PNG)
 
 ### 7. Orange elements 💛 Illustrations and layout to be determined
 
