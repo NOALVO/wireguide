@@ -86,11 +86,19 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 5.2. _MUST_. Mark read-only, blocked and disabled controls with an "block" sign.
 
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/52.PNG)
+
 5.3. _MUST_. Mark elements and controls affected by user roles (privileges elevation) with a (`△`). Elements marked both with 5.2 and this marking will be considered not read-only if the role is satisfied. Indicate more details of the privilege and control behavior in the Table of Features.
+
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/53.PNG)
 
 5.4. _MUST_. Mark elements and controls that contains or triggers AJAX loaders with an horizontal three-dot.
 
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/54.PNG)
+
 5.5. _MUST_. Mark elements and controls that are repeatable by some iteration with a vertical three-dot. Indicate more details of the iteration in the Table of Features.
+
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/55.PNG)
 
 ### 6. Green elements 💚 Controls
 
