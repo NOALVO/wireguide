@@ -60,15 +60,25 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 4.2. _MUST_. Define a **reference code** for each feature with a letter, starting from `A` to `Z`.
 
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/42.PNG)
+
 4.3. _SHOULD NOT_. Prefer omiting control labels and instead use the reference code described in 4.2.
 
 4.4. _MUST_. Build a "**Table of Features**" including the reference code and the main details of each in a usable free space of the wireframe. If there is no free space in the wireframe, use the back of the sheet to make it.
 
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/44.PNG)
+
 4.5. _MUST_. When referencing features in Table of Features specified by item 4.4, **use `"` to describe their labels**.
+
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/45.PNG)
 
 4.6. _MUST_. When referencing features in Table of Features specified by item 4.4, **use `→` to indicate the destination of the feature**, like, but not limited to, opening dialogs and changing pages.
 
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/46.PNG)
+
 4.7. _MUST_. When referencing features in Table of Features specified by item 4.4, **use `←` to indicate the origin of the feature**, like, but not limited to, pages e other features, and also the source of labels, like, but not limited to APIs and internal funcions.
+
+![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/47.PNG)
 
 ### 5. Red elements ❤️ Modifiers
 
