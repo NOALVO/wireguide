@@ -1,25 +1,25 @@
-# wireguide
+# Wireguide
 Styleguide for low-fidelity paper prototyping and wireframing.
 
 > _The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt)._
 
 ### 1. Objectives
 
-1.1. These guidelines are supposed to be used by any product owner, manager, designer or developer intended to illustrate visual representations of computer software or internet pages, a.k.a. prototyping or wireframing.
+1.1. These guidelines are meant to be used by product owners, managers, designers or developers planning to illustrate visual representations of computer software or internet pages, a.k.a. prototyping or wireframing.
 
-1.2. These guidelines SHOULD be used to represent low-fidelity wireframes, which means that rounded borders, shadows, gradients, images, icons, animations or any complex form of graphics SHOULD NOT be used.
+1.2. These guidelines SHOULD be used to represent low-fidelity wireframes. Therefore, rounded borders, shadows, gradients, images, icons, animations or other complex graphical elements SHOULD NOT be used.
 
 ### 2. Pen 🖊
 
-2.1. _SHOULD_. Prefer using thin/sharp hydrographic pens or ballpoint pens. Avoid thick pens and markers.
+2.1. _SHOULD_ prefer using thin/sharp hydrographic pens or ballpoint pens. Avoid thick pens and markers.
 
-2.2. _MUST NOT_. Don't use pencils or automatic pencils in order to avoid poor visibility wireframes.
+2.2. _MUST NOT_ use pencils or automatic pencils in order to avoid poor visibility wireframes.
 
-2.3. _MUST_. Use black, blue, red, green and orange colors to draw elements, attending to the following rules below. When you don't have green or orange color, you MUST replace orange by red and green by black. When you don't have blue, red or black, well... you could not make a comprehensive wireframe.
+2.3. _MUST_ use black, blue, red, green and orange colors to draw elements, considering the rules below. In case you don't have green or orange colors, you MUST replace orange with red and green by black. If you don't have blue, red or black, well... you can't make a comprehensive wireframe.
 
 ### 3. Black elements 🖤 Containers
 
-3.1. _MUST_. Use the **black** color for general lines, containers and borders. In all, but not limited to, the following cases:
+3.1. _MUST_ use **black** color for lines, containers and borders. For all, but not limited to, the following cases:
 - Divs
 - Panels
 - Headers
@@ -30,145 +30,144 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 - Images
 - Modal dialogs
 
-3.2. _MUST_. For **navigation bars**, when the bar is prefixed by a trademark or logo, include the word `LOGO` at the beggining of the bar.
+3.2. _MUST_ include the word `LOGO` at the beginning of **navigation bars** prefixed by a trademark or logo.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/32.PNG)
 
-3.3. _MUST_. **Modal dialogs** must include close button (`×`) at the top-right corner.
+3.3. _MUST_ include close buttons (`×`) at the top-right corner of **modal dialogs**.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/33.PNG)
 
-3.4. _MUST_. **Images** must be represented by a square with an x mark touching its corners.
+3.4. _MUST_ represent **images** by a square with an x mark touching its corners (`☒`).
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/34.PNG)
 
-3.5. _SHOULD_. For **tables** and **general containers** that includes repeatable elements, draw only the first line of element and include three vertical dots at the middle of container.
+3.5. _SHOULD_ draw only the first line of a repeating elements, followed by a vertical ellipsis (`⋮`) at the middle of  the container for **tables** and **containers**.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/35.PNG)
 
-3.6. _SHOULD_. For **tables** and **general containers** that is supposed to be taller than wireframe bounds, DO NOT finish the container with a bottom side line, and apply a three vertcial dashes following each horizontal side of container.
+3.6. _SHOULD NOT_ draw bottom lines for **tables** and **containers** that are taller than the wireframe. Instead, apply three dashes (like an ellipsis) from each vertical line of the container's sides.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/36.PNG)
 
-3.7. _SHOULD_. For **tables** and **general containers** that is supposed to be wider than wireframe bounds, DO NOT finish the container with a bottom side line, and apply a three horizontal dashes following each vertical side of container.
+3.7. _SHOULD NOT_ draw right/left lines for **tables** and **containers** that are wider than the wireframe. Instead, apply three dashes (like an ellipsis) from each horizontal line of container's sides.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/37.PNG)
 
 ### 4. Blue elements 💙 Features
 
-4.1. _MUST_. Use the **blue** color to describe the content, origin and destination of features.
+4.1. _MUST_ use **blue** color to describe features' content, origin and destination.
 
-4.2. _MUST_. Define a **reference code** for each feature with a letter, starting from `A` to `Z`.
+4.2. _MUST_ define **reference codes** for each feature with a letter, starting from `A` to `Z`.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/42.PNG)
 
-4.3. _SHOULD NOT_. Prefer omiting control labels and instead use the reference code described in 4.2.
+4.3. _SHOULD NOT_ label control elements directly. Instead, prefer using the reference code described in 4.2.
 
-4.4. _MUST_. Build a "**Table of Features**" including the reference code and the main details of each in a usable free space of the wireframe. If there is no free space in the wireframe, use the back of the sheet to make it.
+4.4. _MUST_ make a "**features table**" including each component reference code and their main details. Use any free space in the wireframe. If there isn't, use the back of the sheet to make it.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/44.PNG)
 
-4.5. _MUST_. When referencing features in Table of Features specified by item 4.4, **use `"` to describe their labels**.
+4.5. _MUST_ **use double quotes (`"`) to describe labels** of items in a features table (specified by item 4.4).
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/45.PNG)
 
-4.6. _MUST_. When referencing features in Table of Features specified by item 4.4, **use `→` to indicate the destination of the feature**, like, but not limited to, opening dialogs and changing pages.
+4.6. _MUST_ **use right arrows (`→`) to indicate a feature's destination** when referencing it in a features table (specified by item 4.4). Like, but not limited to, opening dialogs and changing pages.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/46.PNG)
 
-4.7. _MUST_. When referencing features in Table of Features specified by item 4.4, **use `←` to indicate the origin of the feature**, like, but not limited to, pages e other features, and also the source of labels, like, but not limited to APIs and internal funcions.
+4.7. _MUST_ **use left arrows (`←`) to indicate a feature's origin** when referencing it in a features table (specified by item 4.4). Like, but not limited to, pages and other features, and also the labels' sources, like, but not limited to APIs and its internal functions.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/47.PNG)
 
 ### 5. Red elements ❤️ Modifiers
 
-5.1. _MUST_. Use the **red** color to indicate special behaviors of features.
+5.1. _MUST_ use **red** color to indicate features' special behaviors.
 
-5.2. _MUST_. Mark read-only, blocked and disabled controls with an "block" sign.
+5.2. _MUST_ use "blocked" signs (`🚫`) for read-only, blocked or disabled controls.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/52.PNG)
 
-5.3. _MUST_. Mark elements and controls affected by user roles (privileges elevation) with a (`△`). Elements marked both with 5.2 and this marking will be considered not read-only if the role is satisfied. Indicate more details of the privilege and control behavior in the Table of Features.
+5.3. _MUST_ use triangles (`△`) for elements and controls affected by user roles (privileges elevation). Elements marked with both "blocked" sign and triangle will be considered not read-only if the role is satisfied. Describe further details of privileges and control behaviors in the features table.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/53.PNG)
 
-5.4. _MUST_. Mark elements and controls that contains or triggers AJAX loaders with an horizontal three-dot.
+5.4. _MUST_ use horizontal ellipsis (`...`) for elements or controls that contain or trigger AJAX loaders.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/54.PNG)
 
-5.5. _MUST_. Mark elements and controls that are repeatable by some iteration with a vertical three-dot. Indicate more details of the iteration in the Table of Features.
+5.5. _MUST_ use vertical ellipsis (`⋮`) for elements or controls that repeat by some iteration with a vertical three-dot. Indicate more details of the iteration in the Table of Features.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/55.PNG)
 
 ### 6. Green elements 💚 Controls
 
-6.1. _MUST_. Draw **input/text boxes** with just an horizontal line. DO NOT draw inputs as a rectangle, as they may be confused with a button.
+6.1. _MUST_ draw **input/text boxes** with just a horizontal line. DO NOT draw inputs as rectangles, as they may be confused with buttons.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/61.PNG)
 
-6.2. _MUST_. Draw **buttons** as rectangles, including **image buttons**. For buttons that have a cancel/abort/close behavior include a times character (`×`) aligned to center.
+6.2. _MUST_ draw **buttons** as rectangles, including **image buttons**. For buttons that have a cancel/abort/close behavior include a times character (`×`) aligned to its center.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/62.PNG)
 
-6.3. _MUST_. Draw **checkboxes** as squares with a checkmark inside.
+6.3. _MUST_ draw **checkboxes** as squares with a chec kmark inside (`☑`).
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/63.PNG)
 
-6.4. _MUST_. Draw **radio buttons** as circles with a dot inside.
+6.4. _MUST_ draw **radio buttons** as circles with a dot inside (`🔘`).
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/64.PNG)
 
-6.5. _MUST_. Draw **dropdown menus** writing the "Dropdown" word, followed by a feature reference code (as described in 4.2), and, followed by a black triangle ponting down (`▼`). 
+6.5. _MUST_ represent **dropdown menus** writing "Dropdown", followed by a feature reference code (as described by 4.2) and a black triangle ponting down (`▼`).
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/65.PNG)
 
-6.5.1. _MUST_. For the menu panel, draw it as a black container (as described in 3.1), but make a diagonal (northwest to souteast) line at the top-right corner of the container. 
+6.5.1. _MUST_ draw black containers (as described in 3.1) with a diagonal line from the top to the right line of the container's top-right corner for panel menus.
 
-6.5.2. _MUST_. Include an underline at the beggining of each dropdown menu item.
+6.5.2. _MUST_ include underlines (`_`) at the beginning of dropdown menu items and below their labels.
 
-6.5.3. _MUST_. Include a black triangle pointing right (`▶︎`) at the end of each dropdown item which activates another dropdown menu.
+6.5.3. _MUST_ include black triangles pointing right (`▶︎`) at the end of  dropdown items that activates another dropdown menu.
 
-6.6. _MUST_. Put a dashed border at the bottom of **hyperlinks**.
+6.6. _MUST_ put dashed underlines (`_ _ _`) below their labels for **hyperlinks**.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/66.PNG)
 
-6.7. _MUST_. Draw **sliders** as an horizontal line with a black filled circle on it.
+6.7. _MUST_ draw **sliders** as horizontal lines with a black filled circle on it.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/67.PNG)
 
-6.8. _MUST_. Draw **switches** as two rectancles (one filled and the other not) together.
+6.8. _MUST_ draw **switches** as two rectancles (one filled and the other not) alongside.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/68.PNG)
 
-6.9. _MUST_. Draw **tooltips** as rectangles shaped with a left-chevron at the left side.
+6.9. _MUST_ draw **tooltips** as rectangles shaped with a left-chevron at the left side.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/69.PNG)
 
-6.10. _MUST_. Draw **progress bars** as two long rectangles (one filled and the other not) together. Place a `%` inside the white rectangle, as this drawing may be confused with switches.
+6.10. _MUST_ draw **progress bars** as two long rectangles (one filled and the other not) alongside. Place a `%` inside the white rectangle, as this drawing may be confused with switches.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/610.PNG)
 
 ### 7. Orange elements 💛 Illustrations and layout to be determined
 
-7.1. _SHOULD_. Draw proposals of text and illustrations that have to be officially determined with the orange color.
+7.1. _SHOULD_ draw proposals of text and illustrations that have to be officially determined with orange color.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/71.PNG)
 
 ### 8. Grids and browser bounds
 
-8.1. _SHOULD_. Use simple grids to draw containers and parts of pages.
+8.1. _SHOULD_ use simple grids to draw containers and parts of pages.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/81.PNG)
 
-8.2. _SHOULD_. Use "browser" grids to draw pages and elements disposed inside a page.
+8.2. _SHOULD_ use "browser" grids to draw pages and elements disposed inside a page.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/82.PNG)
 
-8.3. _SHOULD_. Use "tablet" and "mobile" grids to represent responsive adjusted desktop wireframes, or, if your wireframe is for a product that focus a specific plaform.
+8.3. _SHOULD_ use "tablet" and "mobile" grids to represent responsiveness adjusted desktop wireframes, or, if your wireframe is for a product that focus a specific plaform.
 
-8.4. _SHOULD_. Use [Sneakpeekit](http://sneakpeekit.com/) to print paper grids described by 8.1, 8.2 and 8.3.
+8.4. _SHOULD_ use [Sneakpeekit](http://sneakpeekit.com/) to print paper grids described by 8.1, 8.2 and 8.3.
 
 ### 9. Digitalizing
 
-9.1. _SHOULD_. Use [CamScanner]() to digitalize wireframes, applying "Lighten" or "Magic Color" filter.
-
+9.1. _SHOULD_ use [CamScanner]() to digitalize wireframes, applying "Lighten" or "Magic Color" filter.
