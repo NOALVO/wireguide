@@ -42,15 +42,15 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/34.PNG)
 
-3.5. _SHOULD_ draw only the first line of a repeating elements, followed by a vertical ellipsis (`⋮`) at the middle of  the container for **tables** and **containers**.
+3.5. _SHOULD_ draw only the first line of repeating elements, followed by a vertical ellipsis (`⋮`) at the middle of  the container for **tables** and **containers**.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/35.PNG)
 
-3.6. _SHOULD NOT_ draw bottom lines for **tables** and **containers** that are taller than the wireframe. Instead, apply three dashes (like an ellipsis) from each vertical line of the container's sides.
+3.6. _SHOULD NOT_ draw bottom lines for **tables** and **containers** that are taller than the wireframe's boundaries. Instead, apply three dashes (like an ellipsis) from each vertical line of the container's sides.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/36.PNG)
 
-3.7. _SHOULD NOT_ draw right/left lines for **tables** and **containers** that are wider than the wireframe. Instead, apply three dashes (like an ellipsis) from each horizontal line of container's sides.
+3.7. _SHOULD NOT_ draw right lines for **tables** and **containers** that are wider than the wireframe's boundaries. Instead, apply three dashes (`- - -`) from each horizontal line of the container's sides.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/37.PNG)
 
@@ -64,19 +64,19 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 4.3. _SHOULD NOT_ label control elements directly. Instead, prefer using the reference code described in 4.2.
 
-4.4. _MUST_ make a "**features table**" including each component reference code and their main details. Use any free space in the wireframe. If there isn't, use the back of the sheet to make it.
+4.4. _MUST_ make a "**Table of Features**" including each component reference code and their main details. Use any free space in the wireframe. If there isn't, use the back of the sheet to make it.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/44.PNG)
 
-4.5. _MUST_ **use double quotes (`"`) to describe labels** of items in a features table (specified by item 4.4).
+4.5. _MUST_ **use double quotes (`"`) to describe labels** of items in a "Table of Features" (specified by item 4.4).
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/45.PNG)
 
-4.6. _MUST_ **use right arrows (`→`) to indicate a feature's destination** when referencing it in a features table (specified by item 4.4). Like, but not limited to, opening dialogs and changing pages.
+4.6. _MUST_ **use right arrows (`→`) to indicate a feature's destination** when referencing it in a "Table of Features" (specified by item 4.4). Like, but not limited to, opening dialogs and changing pages.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/46.PNG)
 
-4.7. _MUST_ **use left arrows (`←`) to indicate a feature's origin** when referencing it in a features table (specified by item 4.4). Like, but not limited to, pages and other features, and also the labels' sources, like, but not limited to APIs and its internal functions.
+4.7. _MUST_ **use left arrows (`←`) to indicate a feature's origin** when referencing it in a "Table of Features" (specified by item 4.4). Like, but not limited to, pages and other features, and also the labels' sources, like, but not limited to APIs and its internal functions.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/47.PNG)
 
@@ -84,19 +84,19 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 5.1. _MUST_ use **red** color to indicate features' special behaviors.
 
-5.2. _MUST_ use "blocked" signs (`🚫`) for read-only, blocked or disabled controls.
+5.2. _MUST_ mark with "blocked" signs (`🚫`) read-only, blocked or disabled controls.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/52.PNG)
 
-5.3. _MUST_ use triangles (`△`) for elements and controls affected by user roles (privileges elevation). Elements marked with both "blocked" sign and triangle will be considered not read-only if the role is satisfied. Describe further details of privileges and control behaviors in the features table.
+5.3. _MUST_ mark with triangles (`△`) elements and controls affected by user roles (privileges elevation). Elements marked with both "blocked" sign and triangle will be considered not read-only if the role is satisfied. Describe further details of privileges and control behaviors in a "Table of Features".
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/53.PNG)
 
-5.4. _MUST_ use horizontal ellipsis (`...`) for elements or controls that contain or trigger AJAX loaders.
+5.4. _MUST_ mark with horizontal ellipsis (`...`) elements or controls that contain or trigger AJAX loaders.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/54.PNG)
 
-5.5. _MUST_ use vertical ellipsis (`⋮`) for elements or controls that repeat by some iteration with a vertical three-dot. Indicate more details of the iteration in the Table of Features.
+5.5. _MUST_ mark with vertical ellipsis (`⋮`) elements or controls that repeat within an iteration with a vertical three-dot. Indicate more details of the iteration in the "Table of Features".
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/55.PNG)
 
@@ -110,7 +110,7 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/62.PNG)
 
-6.3. _MUST_ draw **checkboxes** as squares with a chec kmark inside (`☑`).
+6.3. _MUST_ draw **checkboxes** as squares with a check mark inside (`☑`).
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/63.PNG)
 
