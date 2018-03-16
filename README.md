@@ -5,27 +5,27 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 ## Table of Contents
 1. [Objectives](#1-objectives)
-2. [Pen](#2-pen-)
+2. [Pen 🖊](#2-pen-)
 3. [Black elements 🖤 Containers](#3-black-elements--containers)
    1. [Navigation bars](#navigation-bars)
    2. [Modal dialogs](#modal-dialogs)
-   3. [Images](#images-)
+   3. [Images (☒)](#images-)
    4. [Tables and containers](#tables-and-containers)
 4. [Blue elements 💙 Features](#4-blue-elements--features)
    1. [Table of Features](#table-of-features)
-   2. [Double quotes](#double-quotes-)
-   3. [Right arrows](#right-arrows-)
-   4. [Left arrows](#left-arrows-)
-5. [Red elements ❤️ Modifiers](#5-red-elements--modifiers)
-   1. [Blocked sign](#blocked-sign-)
-   2. [Triangle sign](#triangle-sign-)
-   3. [Horizontal ellipsis](#horizontal-ellipsis-)
-   4. [Vertical ellipsis](#vertical-ellipsis-)
+   2. [Double quotes (")](#double-quotes-)
+   3. [Right arrows (→)](#right-arrows-)
+   4. [Left arrows (←)](#left-arrows-)
+5. [Red elements ❤️ Modifiers](#5-red-elements-%EF%B8%8F-modifiers)
+   1. [Blocked sign (🚫)](#blocked-sign-)
+   2. [Triangle sign (△)](#triangle-sign-)
+   3. [Horizontal ellipsis (...)](#horizontal-ellipsis-)
+   4. [Vertical ellipsis (⋮)](#vertical-ellipsis-)
 6. [Green elements 💚 Controls](#6-green-elements--controls)
    1. [Input/text boxes](#inputtext-boxes)
    2. [Buttons](#buttons)
-   3. [Checkboxes](#checkboxes-)
-   4. [Radio buttons](#radio-buttons-)
+   3. [Checkboxes (☑)](#checkboxes-)
+   4. [Radio buttons (🔘)](#radio-buttons-)
    5. [Dropdown menus](#dropdown-menus)
    6. [Hyperlinks](#hyperlinks)
    7. [Sliders](#sliders)
@@ -33,7 +33,7 @@ Styleguide for low-fidelity paper prototyping and wireframing.
    9. [Tooltips](#tooltips)
    10. [Progress bars](#progress-bars)
 7. [Orange elements 💛 Illustrations and layout to be determined](#7-orange-elements--illustrations-and-layout-to-be-determined)
-8. [Grids and browser bounds](#8-grids-and-browser-bounds)
+8. [Grids and browser boundaries](#8-grids-and-browser-boundaries)
 9. [Digitalizing](#9-digitalizing)
 
 ### 1. Objectives
@@ -231,7 +231,7 @@ Styleguide for low-fidelity paper prototyping and wireframing.
 
 ![](https://raw.githubusercontent.com/NOALVO/wireguide/master/img/71.PNG)
 
-### 8. Grids and browser bounds
+### 8. Grids and browser boundaries
 
 8.1. _SHOULD_ use simple grids to draw containers and parts of pages.
 
